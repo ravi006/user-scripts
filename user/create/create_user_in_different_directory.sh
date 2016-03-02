@@ -19,7 +19,7 @@ sudo usermod -a -G tapela ravi
 
 sudo chown ravi:tapela /appl/ravi
 
-#change primary group of priceservice from priceservice to appl
+#change primary group of ravi from ravi to tapela
 sudo usermod -g newgroup username
 sudo usermod -g tapela ravi
 
